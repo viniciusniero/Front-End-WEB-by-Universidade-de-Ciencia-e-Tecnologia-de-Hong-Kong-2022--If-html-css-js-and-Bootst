@@ -1,0 +1,127 @@
+.row {
+    width: 100%;
+}
+.row-header {
+    margin: 0px auto;
+    padding: 0px;
+
+}
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom:1px ridge;
+    min-height: 400px;
+}
+.footer {
+    background-color: #d1c4e9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #9575cd;
+    color: floralwhite;
+    font-size: 100%;
+}
+.address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+.navbar-dark {
+    background-color: #512da8;
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.carousel{
+    background: #512da8;
+}
+.carousel-item {
+    height: 300px;
+}
+.carousel-item img {
+    position: absolute;
+    top:0;
+    left: 0;
+    min-height: 300px;
+}
+#carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom:0px;
+    z-index: 1;
+}
+
+/*about */
+.row-history {
+    margin-left: -8%;
+    margin-top: 6%;
+    margin-bottom: 12%;
+}
+.row-corporate {
+    margin-bottom: 6%;
+    font-size: 85%;
+}
+.font1{
+    font-size: 0.8rem;
+}
+.text-word{
+    font-size: 1.9rem;
+}
+.btnsmoking{
+    left: 4.9rem;
+}
+.labdate{
+    right: 0.8rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+    .font{
+    font-size: 150%;
+    }
+    .last{
+        font-size: 148%;
+    }
+    .footer{
+        font-size: 1px;
+        max-height: 420px;
+        max-width: 600px;
+    }
+    .contato{
+        display: -webkit-inline-box;
+    }
+    .contato a{
+        margin: .5%;
+    }
+    .titulo {
+        font-size: 15%;
+        max-width: 500px;
+    }
+    .text-form{
+        font-size: 20px;
+   }
+   .text-word{
+    font-size: 1.51rem;
+   }
+   .text-word-sub{
+    font-size: 1rem;
+   }
+   .btnsmoking{
+	left: 0.8rem;
+   }
+
+}
+
